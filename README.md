@@ -1,0 +1,4 @@
+Fundraiser
+==========
+
+A fundraising webapp
