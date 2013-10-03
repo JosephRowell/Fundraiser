@@ -1,0 +1,108 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 280%;
+    padding-top: 5%;
+}
+#leftdata {
+    text-align: left;
+    float: left;
+    margin-left: 2%;
+    display: inline;
+}
+#rightdata {
+    float: right;
+    display: inline;
+    margin-right: 9%;
+}
+#travel {
+    display: block;
+    clear: both;
+}
+input:hover, textarea:hover, input:focus, textarea:focus {
+    background-color: #ddffdd;
+}
+
+@charset "utf-8";
+    /* CSS Document */
+    /* Smartphones (portrait and landscape) ----------- */
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+     .fonts
+     {
+      font-size: 75%;
+     }    
+    }
+    /* Smartphones (landscape) ----------- */
+    @media only screen
+    and (min-width : 321px) {
+     .fonts
+     {
+      font-size: 120%;
+     }  
+    }
+    /* Smartphones (portrait) ----------- */
+    @media only screen
+    and (max-width : 320px) {
+     .fonts
+     {
+      font-size: 120%;
+     }  
+    }
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px) {
+     .fonts
+     {
+      font-size: 120%;
+     }    
+    }
+    /* iPads (landscape) ----------- */
+    @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : landscape) {
+     .fonts
+     {
+      font-size: 150%;
+     }    
+    }
+    /* iPads (portrait) ----------- */
+    @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : portrait) {
+
+     .fonts
+     {
+      font-size: 120%;
+     }  
+    }
+    /* Desktops and laptops ----------- */
+    @media only screen
+    and (min-width : 1224px) {
+     .fonts
+     {
+      font-size: 126%;
+     }    
+    }
+    /* Large screens ----------- */
+    @media only screen
+    and (min-width : 1824px) {
+     .fonts
+     {
+      font-size: 200%;
+     }    
+    }
+    /* iPhone 4 ----------- */
+    @media
+    only screen and (-webkit-min-device-pixel-ratio : 1.5),
+    only screen and (min-device-pixel-ratio : 1.5) {
+     .fonts
+     {
+      font-size: 190%;
+     }    
+    }
