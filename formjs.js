@@ -20,13 +20,13 @@ function calcGas() {
         corfm = prompt("Field Manager or Canvasser? f or c?");
         if (corfm == 'f') {
             corfm = parseInt(24);
-			return corfm;
+        	return corfm;
         } else if (corfm == 'c') {
             corfm = parseInt(12);
-			return corfm;
+		return corfm;
         } else {
             alert("something wrong ");
-		return false;
+	    return false;
         }
     }
 
@@ -36,9 +36,9 @@ function calcGas() {
 }
 //This function is for clearing the number field when you press the "+" button. It does not work yet.
 function clearaddy() {
-	space = document.getElementById("Number");
-	if (space != ""){
+     space = document.getElementById("Number");
+     if (space != ""){
 	return false;
-	}
+     }
 	
 }
